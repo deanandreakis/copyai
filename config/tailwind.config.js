@@ -11,6 +11,10 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        'mygreen' : '#53bca7',
+        'mygreen-hover' : '#50b0a0',
+      },
     },
   },
   plugins: [
