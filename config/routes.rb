@@ -5,9 +5,6 @@ Rails.application.routes.draw do
   get "/tools", to: "tools#home"
   get "/contact", to: "contact#home"
   get "/pricing", to: "pricing#home"
-
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get "/privacy", to: "static_pages#privacy"
+  get "/terms", to: "static_pages#terms"
 end
